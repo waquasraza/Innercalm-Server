@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5050
 
 app.get('/', (req,res)=>{
-    res.status(200).json({success: true, message: 'Hello from InnerCalm Server.'})
+    res.status(200).json({success: true, message: 'Hello World.'})
 })
 
 app.listen(PORT, ()=>{
